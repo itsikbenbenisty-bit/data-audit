@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+dist/
+.DS_Store
+Thumbs.db
+# never commit research data or run outputs
+RUN*/
+run*/
+*.sav

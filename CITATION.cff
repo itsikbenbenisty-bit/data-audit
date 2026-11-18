@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use data-audit in research or teaching, please cite it as below."
+title: "data-audit: Auditing, documenting and cleaning research and organisational data"
+authors:
+  - family-names: Benbenisty
+    given-names: Yizhaq
+    affiliation: Sapir College
+version: "2026.11.18"
+date-released: "2026-11-18"
+license: MIT
+type: software
