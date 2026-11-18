@@ -1,6 +1,6 @@
 # data-audit — בדיקה, תיעוד וניקוי של קובצי נתונים מחקריים וארגוניים
 
-**גרסה:** 18.11.2026 · **פיתוח:** ד"ר יצחק בנבניסטי, מכללת ספיר · **רישיון:** MIT (קוד), CC BY 4.0 (תיעוד ונתוני דוגמה)
+**גרסה:** 18.11.2026 · **פיתוח:** ד"ר יצחק בנבניסטי · **רישיון:** MIT (קוד), CC BY 4.0 (תיעוד ונתוני דוגמה)
 
 > **English summary.** data-audit is a Claude Skill (with a ChatGPT version) that audits, documents and
 > cleans research and organisational data files — surveys, HR/biographical records and sensor exports —
@@ -32,7 +32,7 @@ data-audit הוא Skill (כישור) ל-Claude, ולצדו גרסה מקבילה
 |---|---|
 | `data-audit/` | הכישור עצמו: `SKILL.md` (ההנחיות ל-Claude), `scripts/` (קוד Python), `references/` (תיעוד השיטה), `tests/` (בדיקות עצמיות) |
 | `chatgpt/` | ההוראות לגרסת ה-Custom GPT |
-| `examples/` | קובץ סקר סינתטי עם בעיות שהוטמעו בו במכוון, ומילון הנתונים שלו |
+| `examples/` | קובץ סקר סינתטי עם בעיות שהוטמעו בו במכוון, ומילון הנתונים שלו. פריטי השאלון נכתבו מחדש לתרגול ואינם הפריטים המקוריים של הכלים המצוטטים |
 | `tools/build_release.py` | בונה את שני קובצי ההפצה לתיקייה `dist/` |
 
 ## פרטיות: לקרוא לפני שמעלים נתונים
@@ -58,4 +58,4 @@ Python 3.10 ומעלה עם החבילות pandas, openpyxl, scipy, ו-pyreadsta
 
 ## ציטוט
 
-אם השתמשתם בכלי במחקר או בהוראה, אפשר לצטט: Benbenisty, Y. (2026). *data-audit: Auditing, documenting and cleaning research and organisational data*. Sapir College. פרטי הציטוט המלאים נמצאים בקובץ `CITATION.cff`.
+אם השתמשתם בכלי במחקר או בהוראה, אפשר לצטט: Benbenisty, Y. (2026). *data-audit: Auditing, documenting and cleaning research and organisational data* [Computer software]. https://github.com/itsikbenbenisty-bit/data-audit פרטי הציטוט המלאים נמצאים בקובץ `CITATION.cff`.
